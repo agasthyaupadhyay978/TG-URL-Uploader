@@ -51,5 +51,3 @@ async def start(bot, update):
         text=Translation.START_TEXT,
         reply_to_message_id=update.message_id
     )
-
-  
