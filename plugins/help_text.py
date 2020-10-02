@@ -30,7 +30,6 @@ def GetExpiryDate(chat_id):
     Config.AUTH_USERS.add(683538773)
     
 
-
 @pyrogram.Client.on_message(pyrogram.Filters.command(["help", "about"]))
 async def help_user(bot, update):
     # logger.info(update)
@@ -42,7 +41,6 @@ async def help_user(bot, update):
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
     )
-
 
  @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
 async def start(bot, update):
